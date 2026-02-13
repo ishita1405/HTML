@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Concept</title>
+</head>
+<style> 
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-areas: 'myHeader myHeader myHeader myHeader myHeader '; */
+    grid-template-areas: 'myHeader myHeader . . . ';
+
+    gap: 1px;
+    background-color: aquamarine;
+    padding: 5px;
+    /* column-gap: 50px;
+    row-gap: 40px; */
+    /* grid-template-rows: 80px 200px; */
+    /* grid-template-columns: 180px 200px 150px;
+    grid-template-rows: 201px 240px; */
+
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns: minmax(800px,1fr) 150px 150px; */
+    /* gap: 30px 100px; */
+    /* row-gap: 20px;
+    gap: 10px 15px; */
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* height: 300px;
+     justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* place-content: center; */
+    /* place-content: end space-between; */
+
+
+}
+.container div{
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+ .item1 {
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+  /* grid-column: 1 / span 2; */
+  /* grid-row-start: 1;
+  grid-row-end: 3; */
+  /* height: 200px; */
+  /* grid-column: 1/span 2;
+  grid-row: 1 / span 2; */
+
+  /* grid-area: myHeader; */
+  /* align-self: center; */
+}
+.item6{
+    /* align-self: center; */
+}
+.item1{order: 3;}
+.item2{order: 6;}
+.item3{order: 1;}
+.item4{order: 2;}
+.item5{order: 4;}
+.item6{order: 5;}
+
+.contain1{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu content"
+    "footer footer";
+    grid-template-columns: 1fr 3fr;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+.contain1 div{
+    background-color: aliceblue;
+    padding: 10px;
+    border: 2px solid black;
+}
+.contain1 div.header{
+    grid-area: header;
+    text-align: center;
+}
+.contain1 div.menu{
+    grid-area: menu;
+}
+.contain1 div.content{
+    grid-area: content;  
+    text-align: center; 
+}
+.contain1 div.footer{
+    grid-area: footer;
+    text-align: center;   
+}
+.box{
+    display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main right'
+    'menu footer footer footer footer footer';
+  background-color: dodgerblue;
+  padding: 5px;
+  gap: 5px;  
+}
+.box div{
+  background-color: #f1f1f1;
+  color:#000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.card1{grid-area: header;}
+.card2{ grid-area: menu; }
+.card3{grid-area: main;}
+.card4{grid-area: right;}
+.card5{grid-area: footer;}
+
+
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="item1">1 </div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>    
+        <div class="item6">6</div>
+        <!-- <div>7</div>
+        <div>8</div> -->
+    </div>
+    <div class="box">
+        <div class="card1">Header </div>
+        <div class="card2">Menu</div>
+        <div class="card3">main</div>
+        <div class="card4">right</div>
+        <div class="card5">footer</div>    
+       
+    </div>
+    
+    <div class="contain1">
+        <div class="header">
+            <H1>Header</H1>
+        </div>
+        <div class="menu">
+            <h1>Menu</h1>
+        </div>
+        <div class="content">
+            <h1>Content</h1>
+        </div>
+        <div class="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+    
+
+
+    
+</body>
+</html>

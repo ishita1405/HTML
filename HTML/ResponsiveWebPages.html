@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body{
+     background: lightgray;
+     font-family: Arial, sans-serif;
+    margin:0;
+    }
+    .logo{
+        color:black;
+        size: 20px;
+        font-weight: bold;
+    }
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(205, 181, 228);
+        align-items: center;
+        color: black;
+        padding: 15px 30px;
+    }
+    .Navbar nav ul a{
+        color: black;
+        text-decoration: none;
+        margin:  15px;
+        font-size: 18px;
+    }
+    .main{
+        text-align: center;
+        padding: 80px;
+        background: #f6f7f9;
+    }
+    .main button{
+        background : black;
+        color:white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 6px;
+    }
+    .Service{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        padding: 40px;
+    }
+    .card{
+        width: 30%;
+        min-width: 150px;
+        background: white;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    .footer{
+        background-color: black;
+        color:#f6f7f9;
+        padding: 30px;
+        text-align: center;
+    }
+    </style>
+    <title>Responsive Web Page</title>
+    
+</head>
+<body>
+    <header class="Navbar">
+        <h2 class="logo">Ishita Nimje</h2>
+        <nav>
+            <ul>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">service</a>
+                <a href="#">Contact</a>
+                <a href="Login.html">Login</a>
+
+            </ul>
+        </nav>
+    </header>    
+    <section class="main">
+        <h1>Bulding Modern & Responsive web Interface</h1>
+        <p>Welcome to my responsive web page. This page is designed to adapt seamlessly to different screen sizes and devices, providing an optimal viewing experience for users on desktops, tablets, and smartphones. Explore the features and layout that make this page user-friendly and visually appealing across all platforms.</p>
+        <button>Learn more</button>
+    </section>
+    <section class="Service">
+        <div class="card">
+            <h3>Responsive Design</h3>
+            <p>Creating layouts that adapt to various screen sizes using CSS media queries and flexible grids.</p>
+
+        </div>
+
+        <div class="card">
+            <h3>Front-End</h3>
+            <p>HTML, CSS, JavaScript, Bootstrap, Tailwind CSS</p>
+        </div>
+        <div class="card">
+            <h3>Back-End</h3>
+            <p>PHP, Python (Flask/Django), Node.js</p>
+        </div>
+        <div class="card">
+            <h3>Database</h3>
+            <p>MySQL, MongoDB</p>
+    </section>
+    <footer>
+        <div class="footer">
+        Built with ❤️ — Ishita Nimje • <span class="small">© 2025</span>
+                    
+    </div>
+    </footer>
+</body>
+</html>

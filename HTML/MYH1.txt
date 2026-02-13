@@ -1,0 +1,196 @@
+Frontend (Client-Side)
+
+Backend (Server-Side)
+
+Database (Data Layer)
+
+
+Core Technologies:
+
+HTML (HyperText Markup Language) → Structure of the webpage.
+
+CSS (Cascading Style Sheets) → Styling and layout of the page.
+
+JavaScript (JS) → Adds interactivity and dynamic features.
+
+Advanced / Frameworks & Libraries:
+
+React.js → Component-based UI library by Facebook.
+
+2. Backend Technologies (Server-Side)
+
+These handle logic, database operations, and server communication.
+
+Languages:
+
+JavaScript (Node.js) → JavaScript runtime for backend.
+
+Python (Django, Flask)
+
+Java (Spring Boot)
+
+PHP (Laravel, CodeIgniter)
+
+Ruby (Ruby on Rails)
+
+C# (ASP.NET)
+
+Go (Golang)
+
+Frameworks:
+
+Express.js (Node.js) → Lightweight web framework.
+
+Django (Python) → High-level Python web framework.
+
+Spring Boot (Java) → Enterprise-level backend framework.
+
+Laravel (PHP) → MVC framework with built-in tools for authentication and routing.
+
+APIs & Protocols:
+
+RESTful APIs
+
+GraphQL
+
+WebSockets (for real-time communication)
+
+3. Database Technologies (Data Storage Layer)
+
+SQL Databases (Relational):
+
+MySQL
+
+PostgreSQL
+
+SQLite
+
+Microsoft SQL Server
+
+NoSQL Databases (Non-relational):
+
+MongoDB → JSON-like document storage.
+
+Firebase → Real-time cloud-based database.
+
+Cassandra / Redis → High-performance key-value stores.
+
+
+
+Assisted in designing and developing responsive web pages
+
+Implemented UI components using HTML, CSS, JavaScript, and Bootstrap/Tailwind CSS
+
+Developed basic backend functionality using PHP / Python (Flask/Django) (modify based on your tech)
+
+Worked with MySQL / MongoDB for database integration
+
+Participated in debugging and testing to fix UI and functionality issues
+
+Used Git/GitHub for version control and project collaboration
+
+Prepared technical documentation and module reports solution of the give tasks 
+
+✅ Practical Tasks You Can Ask From Company
+
+Tell them:
+
+“To demonstrate my skills, I would be happy to work on a small task such as:”
+
+Front-End Tasks
+
+Build a responsive landing page using HTML, CSS, JS
+
+Convert a Figma/Canva/UI design into code
+
+Add animations/interactions using JavaScript/CSS
+
+Create reusable responsive components (navbar, cards, forms, modals)
+
+Implement form validation using JavaScript
+
+Back-End / Full-Stack Tasks
+
+Create a simple login-signup system with database
+
+Display database records on UI (CRUD operations)
+
+Create a contact form with backend that stores data
+
+Build a small REST API for products/users
+
+Version Control / Deployment Tasks
+
+Push project code to GitHub
+
+Host a simple website using GitHub Pages / Netlify / Vercel
+
+Mini-Assignment Tasks + Expected Approach
+Task 1: Responsive Landing Page
+
+✔ HTML + CSS + JS
+✔ Navigation bar, hero, services, contact section
+✔ Media queries for mobile/tablet
+
+Expected code idea:
+
+Use flexbox / grid
+
+Form validation using JS
+
+Task 2: Login + Registration + Database
+
+✔ HTML form
+✔ Store data in MySQL / SQLite
+✔ Backend: Flask / PHP
+✔ Hash password (optional)
+
+Task 3: Fetch API Data & Display
+
+Use fetch() in JavaScript
+
+Display JSON data in table/cards
+
+
+✅ Most Expected Tasks in Web Dev Internship
+🎯 Front-End Tasks
+Task	What Company Expects
+Build a responsive webpage	Clean UI, mobile-friendly design
+Convert Figma/Design to HTML CSS	Proper spacing, fonts, alignment
+Create reusable components	Navbar, cards, sliders, forms
+Form validation	Email/mobile check, required fields
+Basic animations	Fade, scroll, hover effects
+
+Technologies: HTML, CSS, JavaScript, Bootstrap/Tailwind
+
+🎯 Back-End Tasks
+Task	Expected Output
+Create login + signup	Store user data securely
+CRUD operations	Add/Edit/Delete/View records
+Connect to database	MySQL / MongoDB / Firebase
+APIs usage	Fetch data, render on UI
+Basic authentication	Session or JWT (optional)
+
+Languages: Python Flask / PHP / Node.js (depends on company)
+
+🎯 Full-Stack Mini Projects
+Project	What they check
+Portfolio Website	UI skills, responsiveness
+Contact Form (with DB)	Frontend + backend + DB
+Task/Notes manager	CRUD, form handling
+Blog / Admin Dashboard	Auth, routes, database
+🛠️ General Development Skills
+Task	Purpose
+Push code to GitHub	Version control knowledge
+Fix UI bugs	Debugging ability
+Write documentation	Professional practice
+Work in team	Collaboration and communication
+✅ Real Assignment Examples Companies Give
+
+📌 Build a responsive company landing page
+📌 Create a login-register system
+📌 Fetch and display API data (e.g., products list)
+📌 Create admin dashboard to manage data
+📌 Design front-end for attendance/contact system
+📌 Integrate Google Maps / email notifications
+

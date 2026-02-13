@@ -1,0 +1,169 @@
+*{
+    margin: 1px;
+    padding: 10px;
+    background-color: #afe8e9;
+    /* background-image:url("OIP.jpg"); */
+    background-size: cover;
+    background-repeat: repeat-x;
+    opacity: 0.99;
+    background-position: right top;
+    background-attachment: fixed;
+     
+
+}
+
+h1{
+    color: rgb(204, 25, 43);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration:none;  
+     text-shadow: 2px 2px gray;
+    /* line height: 1.5px;   */
+
+}
+#para1{
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    background-color: rgb(179, 248, 179);   
+    padding: 10px;
+    font-family: 'Sofia', sans-serif;
+
+}
+.vv{
+    color: green;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(222, 148, 217);
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0.60; /*transparency*/
+    border-style:ridge ;
+    border-radius: 6px;
+    
+
+
+}
+#d1{
+    color: brown;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(248, 231, 148);
+    border: 2px solid black;
+    padding: 20px ;
+    box-sizing: border-box;
+    border-style: dashed ;
+    border-radius: 15px;
+    height: 250px;
+    width: 400px;
+
+}
+.d2 {
+  /* padding: 25px 50px 75px; */
+  color: purple;
+  font-size: large;
+  height: 120px;
+  width: 300px;
+  border: 4px solid black;
+  border-radius: 20px;
+  p.ex4 {outline: thick ridge rgb(41, 18, 22);}
+
+
+}
+div {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 15px solid gray;
+  margin: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.A1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+}
+.A2{
+    font-family:  'Courier New', monospace;
+    font-size: 20px;
+}
+.A3{
+    font-family: 'Lucida Console', monospace;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.A4{
+    font-family: 'Lucida Console', monospace;
+    font-size: 12px;
+    word-spacing: 2px;
+    list-style-type: lower-alpha;
+}  
+ul li {
+  background: mistyrose;
+  color: darkblue;
+  margin: 5px;
+  
+}
+
+.A5,.panel{
+    font-family: 'Lucida Console', monospace;
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background: lightgrey;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+.panel{
+    display: none;   
+}
+button{
+    font-size: 20px;
+    font-family: 'Lucida Console', monospace;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box1{
+     width: 250px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+
+    border: 2px dashed red;
+    background-color: #fce4ec;
+}
+#overflowTest{
+    background-color: rgb(232, 174, 232);
+    color: white;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid black;
+}
+@media(max-width:600px){
+    .container{
+        width: 90%;
+    }
+    
+}
+@media(max-width:400px){
+    body{
+        width: 100%;
+        padding: 1rem;
+    }
+    
+}

@@ -1,0 +1,208 @@
+body{
+        /* background-image: url("OIP.jpg");
+        background-repeat: no-repeat; */
+        /* background-size: cover; */
+        /* opacity: 0.5; */
+        margin: 0;     
+        padding: 0;   
+    } 
+    .nav1{
+        width: 100%;
+        height: auto;
+        list-style: none;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    ul li{
+        margin: 5px;
+    }
+    ul li a{
+        text-decoration: none;
+        color: rgb(240, 238, 238);
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    :hover ul li a{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .div1{
+        width: 100%;
+        height: 500px;
+        background-color: rgb(235, 237, 237);
+        align-items: center;
+        text-align: center;
+        padding: 12px;    
+
+    }
+    .div1 h1{
+        padding: 150px;
+        font-size: 50px;
+        color: rgb(0, 0, 0);
+    }
+    .div1 a{
+        text-decoration:none;
+        color: rgb(182, 41, 41);
+    }
+    .div1 a:hover{
+        color:chartreuse;
+    }
+    a:active{
+        color: red;
+    }
+    .button a1{
+       background-color: royalblue;
+       color: white;
+       padding: 12px;
+       border: 10px;
+       border-radius: 10px;
+       font-style: italic;
+       font-size: 20px;
+    }
+    .button{
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        margin: 10px;
+    }
+    a1:hover{
+        background-color: blueviolet;
+        color: black;
+
+    }
+    .btn{
+        width: 150px;
+        height: 30px;
+        display: flex;
+        flex-direction: flex-end;
+        justify-content:center;
+        border-radius: 2px solid black;
+        background-color: beige;
+        padding: 2px;
+        margin: 20px;
+        font-size:20px;
+        text-align: center;
+
+    }
+    .overflow{
+        width: 200px;
+        height: 50px;
+        border: 2px solid black;
+        overflow-x: scroll;
+        padding: 5px;
+        margin: 20px;
+        align-items: center;
+    }
+    .float{
+        width:auto;
+        height: 200px;
+        border: 2px solid black;
+        padding: 5px;
+        margin: 20px;
+        align-items: center;
+        overflow: scroll;
+    }
+    .float img{
+        width: 200px;
+        height: 170px;
+        float: left;
+        margin-right: 20px;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        margin: auto;
+        justify-content: center;
+       
+    }
+    .clear{
+        width:90%;
+        height: auto;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        align-items: center;
+        display: flex;
+        background-color: rgb(88, 128, 248);
+    }
+    .box1{
+        margin: 10px;
+        padding: 10px;
+        width: 700px;
+        height: 300px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(252, 252, 252);
+
+    }
+    .image-add{
+        
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        gap: 20px;
+
+    }
+    .image{
+       display: flex;
+       gap: 20px;
+       justify-content: center;
+       padding: 20px;
+    }
+    .image img:hover{
+        transform: scale(1.05);
+        opacity: 0.4;
+        transition: 0.3;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Box1 img{
+        width: 150px;
+        height: 120px;
+        border: 1px solid rgb(7, 6, 6);
+        border-radius: 1px;
+        margin-top: 20px;
+        align-items: center;
+        padding: 12px;
+        margin: 10px;
+        
+    }
+   .Box2{
+        
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        margin: 10px;
+        align-items: center;
+   }

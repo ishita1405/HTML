@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:20px;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+    background-color: #f1f1f1;
+    justify-content: center;
+    display: flex;
+}
+
+li a{
+    display: block;
+    color:black;
+    padding: 14px 16px;
+    text-align: center;
+
+}
+li a:hover{
+    background-color: rgb(55, 80, 189);
+    color: white;
+
+}
+.Login{
+    float: right;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.img-container{
+    width: 33.33%;
+    float: left;
+    padding: 5px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+}
+
+.flex-cointainer{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #d99b9b;    
+}
+.flex-cointainer .box{
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 10px;
+    text-align:left;
+    border: 2px solid #f5eeee;
+    border-radius: 10px;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 15px;
+}
+.img2{
+    float:right;
+    margin-left: 20px;
+    
+}
+.clear{
+    border: 2px solid rgb(132, 245, 245);
+    padding: 10px;
+    border-radius: 10px;
+    clear: both;
+    margin: auto;
+    width: 50%;
+
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(56, 60, 193);
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+h1{
+    display: none;
+    background-color: aquamarine;
+    padding: 10px;
+}
+div:hover h1{
+    display: block;
+}
+div.gallery{
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+div.gallery-item{
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+div .gallery-item:hover{
+    border: 1px solid #777;
+}
+div.gallery-item img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Help</a></li>
+            <li class="Login"> <a href="#">Login/Signup</a></li>
+        </ul>
+    </nav>
+    <h1><center> SIDE BY SIDE IMAGES</center></h1>
+    <div class="clearfix">
+
+        <div class="img-container">
+            <img src="OIP1.jpg" alt="wallpaper"style="width:100%">
+        </div> 
+
+        <div class="img-container">
+            <img src="OIP (2).jpg" alt="wallpaper1"style="width:100%">
+        </div> 
+
+        <div class="img-container">
+            <img src="OIP.jpg" alt="wallpaper2"style="width:100%">
+        </div> 
+    </div>
+    
+    <H1><center>flex box</center></H1>
+    <div class="flex-cointainer">
+        <div class="box">Box 1 - This is some text to make sure 
+            that the content gets really tall. This is some text to make sure that the
+             content gets really tall.
+        </div>
+         <div class="box">Box 1 - This is some text to make sure 
+            that the content gets really tall. This is some text to make sure that the
+             content gets really tall.
+        </div>
+         <div class="box">Box 1 - This is some text to make sure 
+            that the content gets really tall. This is some text to make sure that the
+             content gets really tall.
+        </div>
+         <div class="box">Box 1 - This is some text to make sure 
+            that the content gets really tall. This is some text to make sure that the
+             content gets really tall.<br>
+        </div>
+        </div>
+    <h1><center>Floating Image using clearfix hack</center></h1>
+     <div class="clear"><br>
+        <image class="img2" src="OIP.jpg" alt="wallpaper2" width="250px",height="250px">
+            Search free wallpaper laptop Wallpapers on Zedge and personalize your phone to suit you. 
+            Start your  search now and free your phone.<br> 
+            <a href="https://wallpapercg.com/laptop-wallpapers" class="btn" target="_blank">
+                Click me
+            </a>
+        </div>
+    </div>
+
+
+    <h2><center>Hover to show Tooltip</center></h2>
+    <p>Heyyy Guys!!</p>
+    <div>Good Morning
+        <h1>
+            Ishita Nimje here.
+        </h1> 
+    </div>
+    <div class="gallery">
+        <div class="gallery-item">
+            <a href="https://tse4.mm.bing.net/th/id/OIP.LUJTvPB4X-Ad-Mj3Szt1pwHaE8?pid=Api&P=0&h=180">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.LUJTvPB4X-Ad-Mj3Szt1pwHaE8?pid=Api&P=0&h=180"
+                 alt="Norway" width="300" height="200">
+            
+            </a>
+            <div class="desc">Beautiful Norway</div>
+        </div>
+        <div class="gallery-item">
+            <a href="https://www.w3schools.com/Css/img_5terre.jpg">
+                <img src="https://www.w3schools.com/Css/img_5terre.jpg"
+                 alt="Norway" width="300" height="200">
+            </a>
+            <div class="desc">Beautiful Norway</div>
+        </div>
+
+        <div class="gallery-item">
+            <a href="https://tse4.mm.bing.net/th/id/OIP.LUJTvPB4X-Ad-Mj3Szt1pwHaE8?pid=Api&P=0&h=180">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.LUJTvPB4X-Ad-Mj3Szt1pwHaE8?pid=Api&P=0&h=180"
+                 alt="Norway" width="300" height="200">
+            
+            </a>
+            <div class="desc">Beautiful Norway</div>
+        </div>
+        <div class="gallery-item">
+            <a href="https://www.w3schools.com/Css/img_5terre.jpg">
+                <img src="https://www.w3schools.com/Css/img_5terre.jpg"
+                 alt="Norway" width="300" height="200">
+            </a>
+            <div class="desc">Beautiful Norway</div>
+        </div>
+        
+    </div>
+    
+    
+</body>
+</html>

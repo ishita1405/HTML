@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- swiper.css -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+<style>
+    .img_box img{
+        max-width: 100%;
+    }
+    .slider_container .container{
+        padding: 0;
+        max-width: 1330px;
+        margin: 0 auto;
+    }
+    .card_slider{
+        padding: 50px 0;
+    }
+
+
+
+
+</style>
+<body>
+    <section class="slider_container">
+        <div class="container">
+            <div class="swiper card_slider">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="OIP.jpg">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="OIP1.jpg">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="OIP (2).jpg">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="OIP3.jpg">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="OIP (4).jpg">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="OIP (5).jpg">
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="OIP (6).jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="OIP (7).jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="OIP (8).jpg">
+                        </div>
+                    </div>
+                </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- swiper.js  -->
+       <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+        <script>
+    var swiper = new Swiper(".card_slider", {
+      spaceBetween: 30,
+      loop:true,
+      speed:1000,
+      autoplay: {
+        delay:2000,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        480: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        1200: {
+          slidesPerView: 4,
+        },
+      },
+    });
+  </script>
+
+</body>
+</html>
